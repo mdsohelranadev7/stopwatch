@@ -35,11 +35,6 @@ function starttime() {
         }
     }
 
-
-    // let minits = minit < 10 ? `0${minit}` : minit
-    // let secounds = minit < 10 ? `0${secound}` : secound
-    // let milisecounds = milisecound < 10 ? `0${milisecound}` : milisecound
-
     let minits = String(minit).padStart(2, "0")
     let secounds = String(secound).padStart(2, "0")
     let milisecounds = String(milisecound).padStart(2, "0")
